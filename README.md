@@ -16,4 +16,6 @@
   ## Other Info ✨  
  This script should work on Windows, Mac, and Linux.
  A "ready to run" version is also included for Windows.
+
+ Also included is a PowerShell script (ps_skip_intros.ps1) to accomplish the same thing.
   
