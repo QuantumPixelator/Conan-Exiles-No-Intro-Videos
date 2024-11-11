@@ -14,9 +14,9 @@ CONAN_EXILES_STEAM_ID = "440900"
 KEYWORDS = {
     "bWaitForMoviesToComplete=True": "bWaitForMoviesToComplete=False",
     "bMoviesAreSkippable=True": "bMoviesAreSkippable=True",
-    "-StartupMovies=StartupUE4": ";-StartupMovies=StartupUE4",
-    "-StartupMovies=StartupNvidia": ";-StartupMovies=StartupNvidia",
-    "-StartupMovies=CinematicIntroV2": ";-StartupMovies=CinematicIntroV2"
+    "+StartupMovies=StartupUE4": ";+StartupMovies=StartupUE4",
+    "+StartupMovies=StartupNvidia": ";+StartupMovies=StartupNvidia",
+    "+StartupMovies=CinematicIntroV2": ";+StartupMovies=CinematicIntroV2"
 }
 
 class ConfigEditorApp(QWidget):

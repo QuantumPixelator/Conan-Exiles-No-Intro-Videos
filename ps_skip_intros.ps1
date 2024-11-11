@@ -3,16 +3,16 @@ $iniPathFile = "$PSScriptRoot\path.ini"
 $keywords = @(
     "bWaitForMoviesToComplete=True",
     "bMoviesAreSkippable=True",
-    "-StartupMovies=StartupUE4",
-    "-StartupMovies=StartupNvidia",
-    "-StartupMovies=CinematicIntroV2"
+    "+StartupMovies=StartupUE4",
+    "+StartupMovies=StartupNvidia",
+    "+StartupMovies=CinematicIntroV2"
 )
 $replacements = @(
     "bWaitForMoviesToComplete=False",
     "bMoviesAreSkippable=True",
-    ";-StartupMovies=StartupUE4",
-    ";-StartupMovies=StartupNvidia",
-    ";-StartupMovies=CinematicIntroV2"
+    ";+StartupMovies=StartupUE4",
+    ";+StartupMovies=StartupNvidia",
+    ";+StartupMovies=CinematicIntroV2"
 )
 
 # Select the INI file
